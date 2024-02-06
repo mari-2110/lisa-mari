@@ -735,6 +735,9 @@
     .cardPortfolio {
         align-items: flex-start;
     }
+    .headerContact, .headerPortfolio, .headerServices {
+        font-size: 24px;
+    }
     .textDesigner, .textAboutOne, .textAboutTwo,
     .textDev, .textProject, .textCard,
     .textContact {
