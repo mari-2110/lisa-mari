@@ -1,0 +1,798 @@
+@font-face {
+    font-family: "SeoulNamsan CL";
+    src: url(fonts/seoulnamsan-cl.ttf);
+}
+
+@font-face {
+    font-family: "Mintely Reg Personal Use";
+    src: url(fonts/MintelyRegPersonalUse-x3EWV.otf);
+}
+
+.mainText {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+.textBg {
+    font-family: Mintely Reg Personal Use;
+    font-size: clamp(3.125rem, -0.037rem + 11.76vw, 9.375rem);
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #F4F4F4;
+}
+
+.contSlogan {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.textSlogan {
+    font-family: Mintely Reg Personal Use;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.colorSlogan {
+    position: absolute;
+    top: 465px;
+    left: 650px;
+    color: #98877B;
+    font-family: Mintely Reg Personal Use;
+    font-size: clamp(1.5rem, 1.103rem + 1.51vw, 2.313rem);
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.firstSlogan {
+    font-size: clamp(1.5rem, 1.012rem + 1.86vw, 2.5rem);
+    position: absolute;
+    top: 375px;
+}
+.secondSlogan {
+    font-size: clamp(1.438rem, 1.041rem + 1.51vw, 2.25rem);
+    position: absolute;
+    top: 480px;
+}
+
+.contAbout {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 172px;
+    margin-top: 206px;
+}
+
+.textAboutOne {
+    width: 407px;
+    font-family: SeoulNamsan CL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+}
+
+.textAboutOne span {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+}
+
+.textAboutTwo {
+    width: 340px;
+    font-family: SeoulNamsan CL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.textAboutMg {
+    margin-bottom: 38px;
+}
+
+.contLineAbout {
+    position: relative;
+}
+.lineAbout {
+    position: absolute;
+    left: -21px;
+    top: 24px;
+}
+
+/* Главное фото */
+
+.mainFoto {
+    background-image: url('img/Main_foto.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 80vh;
+    border-radius: 5px;
+    margin-top: 90px;
+}
+
+/* Услуги */
+
+.ourServices {
+    margin-top: 102px;
+}
+
+.headerServices {
+    font-family: Mintely Reg Personal Use;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 153px;
+}
+
+.contServiceOne {
+    display: flex;
+    justify-content: flex-start;
+    gap: 220px;
+    margin-bottom: 102px;
+}
+
+.contDeveloper {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 50px;
+}
+
+.contDeveloper img {
+    position: absolute;
+    top: 5px;
+}
+
+.contDesign {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.contDesign img {
+    position: absolute;
+    top: 3px;
+}
+
+.contTextDev {
+    width: 327px;
+    margin-left: 50px;
+}
+
+.contTextDesign {
+    margin-left: 60px;
+    width: 318px;
+}
+.headerDev {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.textDev {
+    font-family: SeoulNamsan CL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.priceDev {
+    font-family: SeoulNamsan CL;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #000000;
+    border: 0.5px solid #000000;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 183px;
+}
+
+.priceDev:hover {
+    background-color: #00000054;
+    border: none;
+    color: #F4F4F4;
+    cursor: pointer;
+    font-size: 18px;
+    width: 193px;
+}
+
+.contServiceTwo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 220px;
+    margin-bottom: 75px;
+}
+
+.contTexSupport {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 50px;
+}
+
+.contTextSup {
+    width: 327px;
+    margin-left: 15px;
+}
+
+.contDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+}
+
+.detail {
+    font-family: SeoulNamsan CL;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000000;
+    border: 0.5px solid #000000;
+    border-radius: 40px;
+    padding: 19px 35px;
+    text-align: center;
+    width: 316px;
+}
+
+.detail:hover {
+    background-color: #00000054;
+    border: none;
+    color: #F4F4F4;
+    cursor: pointer;
+}
+
+/* Портфолио */
+
+.contPortfolio {
+    margin-top: 117px;
+}
+
+.headerPortfolio {
+    font-family: Mintely Reg Personal Use;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 153px;
+    text-transform: uppercase;
+    color: #98877B;
+}
+
+.textProject {
+    margin: 0 0 70px 75px;
+    font-family: SeoulNamsan CL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.cardPortfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cardCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 40px 0px #00000040;
+}
+
+.cardBg {
+    background: #4F4F4F;
+}
+
+.textCard {
+    font-family: SeoulNamsan CL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.textCardColor {
+    color: #FFFFFF;
+}
+
+.logoApostol {
+    padding: 61px 25px 50px;
+}
+
+.logoReiting {
+    padding: 62px 76px 35px;
+}
+
+.logoOutdoor {
+    padding: 78px 27px 42px;
+}
+
+/* Контакты */
+
+.contContact {
+    margin-top: 202px;
+    margin-bottom: 110px;
+}
+
+.headerContact {
+    font-family: Mintely Reg Personal Use;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 101px;
+}
+
+.contactDesigner {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.textContact,  .contactDesigner {
+    margin-left: 49px;
+}
+
+.textDesigner {
+    margin-right: 39px;
+}
+.whatsApp {
+    margin: 0 60px;
+}
+
+.textDesigner, .textContact {
+    font-family: SeoulNamsan CL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+}
+
+.scrolled.fade-in {
+    animation: fade-in 1s ease-in-out both;
+}
+
+.scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+}
+
+.scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+}
+
+
+
+@media all and (max-width: 2560px) {
+    .firstSlogan {
+        left: 700px;
+    }
+    .secondSlogan {
+        left: 750px;
+    }
+    .colorSlogan {
+        left: 1100px;
+    }
+}
+
+@media all and (max-width: 1599px) {
+    .firstSlogan {
+        left: 200px;
+    }
+    .secondSlogan {
+        left: 250px;
+    }
+    .colorSlogan {
+        left: 600px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .firstSlogan {
+        left: 185px;
+    }
+    .secondSlogan {
+        left: 305px;
+    }
+    .colorSlogan {
+        left: 700px;
+    }
+}
+
+
+
+@media all and (max-width: 1199px) {
+    .mainText {
+        margin-left: 50px;
+    }
+    .firstSlogan {
+        top: 310px;
+    }
+    .secondSlogan {
+        top: 375px;
+    }
+    .colorSlogan {
+        top: 420px;
+        left: 390px;
+    }
+    .contServiceOne, .contServiceTwo {
+        gap: 90px;
+    }
+    .detail {
+        width: 216px;
+        font-size: 15px;
+        box-shadow: 0px 7px 40px 0px #00000040;
+        border: none;
+    }
+    .contactDesigner {
+        position: relative;
+    }
+    .textDesigner {
+        margin-right: 12px;
+    }
+    .whatsApp {
+        order: 1;
+    }
+    .phone {
+        order: 2;
+    }
+    .email {
+        order: 3;
+        position: absolute;
+        top: 60px;
+        left: 400px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    
+    .mainText {
+        top: 88px;
+        margin-left: 0;
+    }
+    .firstSlogan {
+        top: 300px;
+        left: 83px;
+    }
+    .secondSlogan {
+        top: 355px;
+        left: 160px;
+    }
+    .colorSlogan {
+        top: 400px;
+        left: 290px;
+    }
+    .contAbout {
+        gap: 100px;
+    }
+    .textAboutOne {
+        width: 301px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .textAboutTwo {
+        width: 237px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .headerServices {
+        margin-bottom: 102px;
+    }
+    .contServiceOne, .contServiceTwo {
+        gap: 50px;
+    }
+    .contDeveloper, .contDesign {
+        width: 266px;
+    }
+    .headerDev {
+        font-size: 18px;
+    }
+    .textDev {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .priceDev {
+        width: 175px;
+        font-size: 15px;
+    }
+    .contTexSupport {
+        width: 260px;
+    }
+    .detail {
+        width: 216px;
+        font-size: 15px;
+        box-shadow: 0px 7px 40px 0px #00000040;
+        border: none;
+    }
+    .contServiceTwo {
+        margin-bottom: 60px;
+    }
+
+    
+    .contPortfolio {
+        margin-top: 80px;
+    }
+    .headerPortfolio {
+        margin-bottom: 60px;
+    }
+    .textProject {
+        margin: 0 0 80px 50px;
+    }
+    .cardPortfolio {
+        justify-content: flex-start;
+    }
+    .contContact {
+        margin-top: 105px;
+        margin-bottom: 82px;
+    }
+    .contactDesigner {
+        position: relative;
+    }
+    .textDesigner {
+        margin-right: 12px;
+    }
+    .whatsApp {
+        order: 1;
+    }
+    .phone {
+        order: 2;
+    }
+    .email {
+        order: 3;
+        position: absolute;
+        top: 60px;
+        left: 400px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .mainText {
+        top: 88px;
+        margin-left: 70px;
+    }
+    .firstSlogan {
+        top: 300px;
+        left: 83px;
+    }
+    .secondSlogan {
+        top: 355px;
+        left: 160px;
+    }
+    .colorSlogan {
+        top: 400px;
+        left: 290px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .contContact, .contPortfolio, .ourServices,
+    .boxAbout {
+        width: 80%;
+    }
+    .mainText {
+        margin-left: 0px;
+    }
+    .contAbout {
+        flex-direction: column;
+        gap: 55px;
+    }
+    .contLineAbout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lineAbout {
+        display: none;
+    }
+    .textAboutTwo {
+        width: auto;
+    }
+    .mainFoto {
+        margin-top: 41px;
+    }
+    .ourServices  {
+        margin-top: 40px;
+    }
+    .headerServices {
+        margin-left: 0;
+        margin-bottom: 77px;
+    }
+    .contServiceOne, .contServiceTwo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contServiceOne {
+        gap: 77px;
+    }
+    .contDeveloper, .contTexSupport {
+        margin-left: 0;
+    }
+    .contTextDev {
+        width: 100%;
+    }
+    .contDetail {
+        width: 100%;
+    }
+    .contServiceTwo {
+        gap: 82px;
+    }
+    .contPortfolio {
+        margin-top: 88px;
+    }
+    .cardPortfolio {
+        justify-content: center;
+    }
+    .headerPortfolio {
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .textProject {
+        margin: 0 0 55px 0;
+    }
+    .headerContact {
+        margin-bottom: 43px;
+        margin-left: 0;
+    }
+    .contContact {
+        margin-top: 98px;
+        margin-bottom: 91px;
+    }
+    .whatsApp {
+        margin: 0 20px;
+    }
+    .email {
+        top: 100px;
+        left: 0;
+    }
+    .textContact {
+        margin-left: 0;
+    }
+
+}
+
+@media all and (max-width: 549px) {
+    .firstSlogan {
+        left: 50px;
+    }
+    .secondSlogan {
+        left: 110px;
+    }
+    .colorSlogan {
+        left: 190px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .textBg {
+        font-size: 45px;
+    }
+    .firstSlogan {
+        left: 20px;
+    }
+    .secondSlogan {
+        left: 70px;
+    }
+    .colorSlogan {
+        left: 140px;
+    }
+    .lineAbout {
+        display: block;
+        left: -10px;
+    }
+    .contServiceOne, .contServiceTwo, 
+    .cardPortfolio {
+        align-items: flex-start;
+    }
+    .textDesigner, .textAboutOne, .textAboutTwo,
+    .textDev, .textProject, .textCard,
+    .textContact {
+        font-size: 15px;
+    }
+    .contactDesigner  {
+        margin-left: 0;
+    }
+
+}
+
+/* Скролл */
+
+
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
